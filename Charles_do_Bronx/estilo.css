@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+h1 {
+    color: rgb(248, 246, 246);
+    font-size: 40px;
+    font-family: Arial;
+
+}
+
+.caixa {
+    border: 8px solid rgb(0, 0, 0);
+    width: 700px;        
+    height: 400px;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url("charles.jpg") ;
+    background-size: 700px 440px;
+   
+}
+
+hr {
+    width: 106%;          
+    height: 4px;         
+    background-color: rgb(255, 255, 255);
+    border: none;         
+    margin-top: 250px;
+    margin-left: -20px;
+    
+}
+.quadrado {
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: 580px;
+    margin-top: -50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("cinturao.avif");
+    background-size: 70px 70px;
+    
+}
